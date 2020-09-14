@@ -430,7 +430,7 @@ plot_voronoi_boundary(geneID, locs_new, count,  newLabels, min(p))
 |                   ├── create_performance_bigdata_R.ipynb # the code is for millions simulate data
 |                   ├── scGCO_performance_run.ipynb # the code is for testing scGCO running speed and occupied CPU memory with simulate data
 
-|                   ├── SPARK_performance_run.R # the code is for testing scGCO running speed and occupied CPU memory with simulate data
+|                   ├── SPARK_performance_run.R # the code is for testing SPARK running speed and occupied CPU memory with simulate data
 |                   ├── spatialDE_simulate_script.ipynb # the code is for testing spatialDE running speed and occupied CPU memory with simulate data
 │   ├── README.md
 |
@@ -477,6 +477,4 @@ This notebook generates Fig. 2g using precomputed data.
 ### Generate running time profiling plot (Fig. 2h)
 * [Compare_time_simulation_data.ipynb](/code/Simulation/Fig2h_Compare_time_simulation_data.ipynb):
 This notebook generates Fig. 2h using precomputed data.
-
-This script takes about 20 hours to finish on a typical 8 cores computer.
 
